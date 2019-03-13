@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'devise'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -54,7 +54,7 @@ group :test do
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -181,7 +181,7 @@ body {
 label {
   color: $dark;
 }
-input[type="text"], textarea {
+input[type="text"], textarea, [type="email"], [type="password"] {
   width: 100%;
   margin: .5em 2% 1em 0;
   display: inline-block;
